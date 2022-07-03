@@ -45,7 +45,7 @@ export const Login = () => {
         if(token){
             window.location.href = "/dashboard";
         }
-    });
+    },[]);
 
     return(
         <div className={'container '} style={{marginTop : "25vh"}}>
